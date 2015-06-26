@@ -1,0 +1,6 @@
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\CavityMap\bin\Debug\CavityMap.exe.config
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\CavityMap\bin\Debug\CavityMap.exe
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\CavityMap\bin\Debug\CavityMap.pdb
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\CavityMap\obj\Debug\CavityMap.csprojResolveAssemblyReference.cache
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\CavityMap\obj\Debug\CavityMap.exe
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\CavityMap\obj\Debug\CavityMap.pdb
