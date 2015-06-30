@@ -24,7 +24,7 @@ namespace WarmupProblems
 
             for (int i = 0; i < nextLines.Length; i++)
             {
-                string line = nextLines[i];
+                string line = Console.ReadLine();
                 string[] mySplit = line.TrimEnd().Split();
 
                 for (int j = 0; j < mySplit.Length; j++)
@@ -41,29 +41,7 @@ namespace WarmupProblems
 
         public static int GetDiagonalDifference(int[,] grid)
         {
-            int gridDim = grid.GetLength(1);
-            List<int> firstDiagonal = new List<int>();
-            for (int i = 0; i < gridDim; i++)
-            {
-                int row = i;
-                int column = i;
-
-                firstDiagonal.Add(grid[row, column]);
-            }
-
-            List<int> secondDiagonal = new List<int>();
-            for (int j = 0; j < gridDim; j++)
-            {
-                int row = j;
-                int decrement = j + 1;
-                int column = gridDim - decrement;
-
-                secondDiagonal.Add(grid[row, column]);                
-            }
-            int firstSum = firstDiagonal.Sum();
-            int secondSum = secondDiagonal.Sum();
-            int dif = Math.Abs(firstSum - secondSum);
-            return dif;
+            throw new NotImplementedException();
         }
 
     }
