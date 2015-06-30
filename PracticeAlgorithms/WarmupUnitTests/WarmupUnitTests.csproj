@@ -45,6 +45,12 @@
     <Compile Include="WarmupTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarmupProblems\WarmupProblems.csproj">
+      <Project>{27babe54-432e-43e9-8368-09ab3ed008d4}</Project>
+      <Name>WarmupProblems</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

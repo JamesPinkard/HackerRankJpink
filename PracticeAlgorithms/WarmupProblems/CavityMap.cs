@@ -95,7 +95,7 @@ namespace WarmupProblems
             for (int i = 0; i < lineLength; i++)
             {
                 int part = Convert.ToInt32(mySplit[i]);
-                result[i] = part;
+                result[i] = part;                
             }
 
             return result;
