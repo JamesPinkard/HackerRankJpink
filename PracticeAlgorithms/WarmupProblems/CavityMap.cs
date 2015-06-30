@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CavityMap
+namespace WarmupProblems
 {
-    class Solution
+    class CavityMap
     {
-        static void Main(string[] args)
+        static void Solve(string[] args)
         {
             int numberOfRows = ReadInt();
             int numberOfColumns = numberOfRows;

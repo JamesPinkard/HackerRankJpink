@@ -1,0 +1,5 @@
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupProblems\obj\Debug\WarmupProblems.csprojResolveAssemblyReference.cache
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupProblems\bin\Debug\WarmupProblems.exe
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupProblems\bin\Debug\WarmupProblems.pdb
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupProblems\obj\Debug\WarmupProblems.exe
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupProblems\obj\Debug\WarmupProblems.pdb

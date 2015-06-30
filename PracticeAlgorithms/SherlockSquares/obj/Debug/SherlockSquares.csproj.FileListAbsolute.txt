@@ -1,6 +1,0 @@
-C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SherlockSquares\bin\Debug\SherlockSquares.exe.config
-C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SherlockSquares\bin\Debug\SherlockSquares.exe
-C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SherlockSquares\bin\Debug\SherlockSquares.pdb
-C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SherlockSquares\obj\Debug\SherlockSquares.csprojResolveAssemblyReference.cache
-C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SherlockSquares\obj\Debug\SherlockSquares.exe
-C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SherlockSquares\obj\Debug\SherlockSquares.pdb

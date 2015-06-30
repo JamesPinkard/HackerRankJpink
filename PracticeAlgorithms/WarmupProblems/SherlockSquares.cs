@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SherlockSquares
 {
-    class Program
+    class SherlockSquares
     {
-        static void Main(String[] args)
+        static void Solve(String[] args)
         {
             int numberOfTests = ReadInt();
             for (int i = 0; i < numberOfTests; i++)
