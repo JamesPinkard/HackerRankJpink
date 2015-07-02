@@ -23,5 +23,18 @@ namespace WarmupProblems
             }
             return result;
         }
+
+        public static int[] ReadStringIntoNumArray(string numString)
+        {            
+            string[] mySplit = numString.TrimEnd().Split();
+            int[] numArray = new int[mySplit.Length];
+            for (int j = 0; j < mySplit.Length; j++)
+            {
+                int num = Convert.ToInt32(mySplit[j]);
+                numArray[j] = num;
+            }
+            return numArray;
+        }
+
     }
 }
