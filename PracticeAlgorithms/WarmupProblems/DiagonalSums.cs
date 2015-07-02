@@ -14,7 +14,9 @@ namespace WarmupProblems
 
             string[] nextLines = ConsoleHelper.ReadNextLines(number);
             int[,] grid = ReadIntoGrid(nextLines, number, number);
-            int diagonalDifference = GetDiagonalDifference(grid);            
+            int diagonalDifference = GetDiagonalDifference(grid);
+            Console.WriteLine(diagonalDifference);
+            
         }
 
         public static int[,] ReadIntoGrid(string[] nextLines, int number1, int number2)
