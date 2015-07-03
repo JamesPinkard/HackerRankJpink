@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using NUnit.Framework;
 using WarmupProblems;
+using System.Numerics;
 
 namespace WarmupUnitTests
 {
@@ -34,6 +35,28 @@ namespace WarmupUnitTests
 
             
             Assert.AreEqual(21 - 12, difference);
+        }
+
+        [Test]
+        public void Staircase_ReturnThreeStairs()
+        {
+            int numberOfStairs = 3;
+            string stairs = "  #\r\n ##\r\n###";
+
+            string result = Staircase.WriteStairs(numberOfStairs);
+
+            Assert.AreEqual(stairs, result);
+        }
+
+        [Test]
+        public void BigFactorial_TwentyFive()
+        {
+            BigInteger number = 25;
+            BigInteger expected = BigInteger.Parse("15511210043330985984000000");
+
+            BigInteger factorial = LongFactorials.CalculateFactorial(number);
+
+            Assert.AreEqual(expected, factorial);
         }
     }
 }

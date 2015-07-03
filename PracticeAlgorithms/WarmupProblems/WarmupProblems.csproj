@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,11 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="LongFactorials.cs" />
+    <Compile Include="PlusMinus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="CavityMap.cs" />
     <Compile Include="DiagonalSums.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SherlockSquares.cs" />
+    <Compile Include="Staircase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
