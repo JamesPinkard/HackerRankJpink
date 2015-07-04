@@ -58,5 +58,15 @@ namespace WarmupUnitTests
 
             Assert.AreEqual(expected, factorial);
         }
+
+        [Test]
+        public void TimeConversion_MilitaryTime()
+        {
+            string expected = "19:05:45";
+
+            DateTime dt = DateTime.Parse("07:05:45PM");
+            string formattedDate = String.Format("{0:HH:mm:ss}", dt);
+            Assert.AreEqual(expected, formattedDate);
+        }
     }
 }
