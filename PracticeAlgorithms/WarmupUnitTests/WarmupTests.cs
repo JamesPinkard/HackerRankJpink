@@ -68,5 +68,50 @@ namespace WarmupUnitTests
             string formattedDate = String.Format("{0:HH:mm:ss}", dt);
             Assert.AreEqual(expected, formattedDate);
         }
+
+        [Test]
+        public void CaeserCipher_phrase_TwoRotations()
+        {
+            int length = 11;
+            string testPhrase = "middle-Outz";
+            int rotation = 2;
+
+            string result = CaeserCipher.CaeserEncrypt(length, testPhrase, rotation);
+
+            Assert.AreEqual("okffng-Qwvb", result);
+        }
+
+        [Test]
+        public void DateTime_Test()
+        {
+            string date = "9 6 2015";
+            string[] dateArray = date.TrimEnd().Split();
+
+            int iday = Convert.ToInt32(dateArray[0]);
+            int imonth = Convert.ToInt32(dateArray[1]);
+            int iyear = Convert.ToInt32(dateArray[2]);
+
+            DateTime dt = new DateTime(iyear, imonth, iday);
+
+            int year = dt.Year;
+            int month = dt.Month;
+            int day = dt.Day;
+
+            Assert.AreEqual(6, month);
+        }
+
+        [Test]
+        public void DateTime_MinusSpan_ReturnsDaysMonthsYears()
+        {
+            string returnedDate = "9 6 2015";
+            string dueDate = "6 6 2015";
+
+            DateTime retDate = LibraryFine.GetDate_DMY_Format(returnedDate);
+            DateTime expectedDate = LibraryFine.GetDate_DMY_Format(dueDate);
+
+            TimeSpan overdueTime = retDate - expectedDate;
+
+            Assert.AreEqual(overdueTime.Days, 3);
+        }
     }
 }

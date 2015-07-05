@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaeserCipher.cs" />
     <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="LibraryFine.cs" />
     <Compile Include="LongFactorials.cs" />
     <Compile Include="PlusMinus.cs" />
     <Compile Include="Program.cs" />
