@@ -1,0 +1,9 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\obj\Debug\UnitHackerRankTests.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\obj\Debug\WarmupUnitTests.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\bin\Debug\WarmupUnitTests.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\bin\Debug\WarmupUnitTests.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\bin\Debug\nunit.framework.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\bin\Debug\WarmupProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\bin\Debug\WarmupProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\bin\Debug\nunit.framework.xml
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\WarmupUnitTests\obj\Debug\WarmupUnitTests.pdb

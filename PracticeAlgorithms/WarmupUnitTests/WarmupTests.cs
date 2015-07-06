@@ -113,5 +113,16 @@ namespace WarmupUnitTests
 
             Assert.AreEqual(overdueTime.Days, 3);
         }
+
+        [Test]
+        public void ConsoleHelper_StringToIntArray()
+        {
+            int[] expected = new int[] { 1, 4, 5, 7, 9, 12 };
+            string testString = "1 4 5 7 9 12";
+
+            int[] result = ConsoleHelper.ReadStringIntoNumArray(testString);
+
+            Assert.AreEqual(expected, result);
+        }
     }
 }

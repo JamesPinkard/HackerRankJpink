@@ -1,0 +1,6 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SortingProblems\bin\Debug\SortingProblems.exe.config
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SortingProblems\bin\Debug\SortingProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SortingProblems\bin\Debug\SortingProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SortingProblems\obj\Debug\SortingProblems.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SortingProblems\obj\Debug\SortingProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SortingProblems\obj\Debug\SortingProblems.pdb
