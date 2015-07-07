@@ -16,7 +16,7 @@ namespace SortingProblems
             int[] numArray = ReadStringIntoNumArray(arrayString);
             IComparer<int> myComparer = new CustomComparer<int>();
 
-            int[] sortedArray = SortFirstPart(numArray);
+            int[] sortedArray = InsertSort(numArray);
         }
 
         private static int[] InsertSort(int[] inputArray)
@@ -25,14 +25,21 @@ namespace SortingProblems
             int numLength = numArray.Length;
             for (int j = 1; j < numLength; j++)
             {
+                // Set array key and comparison position
                 int key = numArray[j];
                 int i = j - 1;
-                while (i>0 && numArray[i]>key)
+
+                // move position numbers up until less than key
+                while (i>=0 && numArray[i]>key)
                 {
                     numArray[i + 1] = numArray[i];
                     i--;
                 }
+
+                // insert key into sorted position
                 numArray[i + 1] = key;
+                string result = string.Join(" ", numArray);
+                Console.WriteLine(result);
             }
             return numArray;
         }
