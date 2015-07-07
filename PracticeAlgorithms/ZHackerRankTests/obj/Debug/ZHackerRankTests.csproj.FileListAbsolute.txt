@@ -1,0 +1,13 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\ZHackerRankTests.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\ZHackerRankTests.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\DynamicProgramming.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\nunit.framework.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\SortingProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\WarmupProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\DynamicProgramming.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\SortingProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\WarmupProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\nunit.framework.xml
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.csprojResolveAssemblyReference.cache

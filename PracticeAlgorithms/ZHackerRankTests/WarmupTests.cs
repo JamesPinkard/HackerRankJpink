@@ -8,7 +8,7 @@ using NUnit.Framework;
 using WarmupProblems;
 using System.Numerics;
 
-namespace WarmupUnitTests
+namespace UnitHackerRankTests
 {
     [TestFixture]
     public class WarmupTests
