@@ -19,6 +19,24 @@ namespace SortingProblems
             int[] sortedArray = SortFirstPart(numArray);
         }
 
+        private static int[] InsertSort(int[] inputArray)
+        {
+            int[] numArray = inputArray;
+            int numLength = numArray.Length;
+            for (int j = 1; j < numLength; j++)
+            {
+                int key = numArray[j];
+                int i = j - 1;
+                while (i>0 && numArray[i]>key)
+                {
+                    numArray[i + 1] = numArray[i];
+                    i--;
+                }
+                numArray[i + 1] = key;
+            }
+            return numArray;
+        }
+
         private static int[] SortFirstPart(int[] numArray)
         {
             int numLength = numArray.Length;
