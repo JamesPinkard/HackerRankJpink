@@ -8,13 +8,13 @@ namespace GraphTheory
 {
     class Graph<T> : IEnumerable<T>
     {
-        private NodeList<T> nodeSet;
+        private NodeDictionary<T> nodeSet;
 
         public Graph() : this(null) { }
-        public Graph(NodeList<T> nodeSet)
+        public Graph(NodeDictionary<T> nodeSet)
         {
             if (nodeSet == null)
-                this.nodeSet = new NodeList<T>();
+                this.nodeSet = new NodeDictionary<T>();
             else
                 this.nodeSet = nodeSet;
         }
@@ -22,13 +22,16 @@ namespace GraphTheory
         public void AddNode(GraphNode<T> node)
         {
             // adds a node to the graph
-            nodeSet.Add(node);
+            nodeSet[node.Value] = node;
         }
 
         public void AddNode(T value)
         {
             // adds a node to the graph
-            nodeSet.Add(new GraphNode<T>(value));
+            if (!nodeSet.ContainsKey(value))
+            {
+                nodeSet[value] = new GraphNode<T>(value);
+            }
         }
 
         public void AddDirectedEdge(GraphNode<T> from, GraphNode<T> to, int cost)
@@ -60,22 +63,22 @@ namespace GraphTheory
 
         public bool Contains(T value)
         {
-            return nodeSet.FindByValue(value) != null;
+            return nodeSet.ContainsKey(value);
         }
 
         public bool Remove(T value)
         {
             // first remove the node from the nodeset
-            GraphNode<T> nodeToRemove = (GraphNode<T>)nodeSet.FindByValue(value);
+            GraphNode<T> nodeToRemove = (GraphNode<T>)nodeSet[value];
             if (nodeToRemove == null)
                 // node wasn't found
                 return false;
 
             // otherwise, the node was found
-            nodeSet.Remove(nodeToRemove);
+            nodeSet.Remove(value);
 
             // enumerate through each node in the nodeSet, removing edges to this node
-            foreach (GraphNode<T> gnode in nodeSet)
+            foreach (GraphNode<T> gnode in nodeSet.Values)
             {
                 int index = gnode.Neighbors.IndexOf(nodeToRemove);
                 if (index != -1)
@@ -89,7 +92,7 @@ namespace GraphTheory
             return true;
         }
 
-        public NodeList<T> Nodes
+        public NodeDictionary<T> Nodes
         {
             get
             {
