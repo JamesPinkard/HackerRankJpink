@@ -4,3 +4,6 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DynamicPro
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DynamicProgramming\obj\Debug\DynamicProgramming.csprojResolveAssemblyReference.cache
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DynamicProgramming\obj\Debug\DynamicProgramming.exe
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DynamicProgramming\obj\Debug\DynamicProgramming.pdb
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DynamicProgramming\bin\Debug\DynamicProgramming.exe.config
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DynamicProgramming\obj\Debug\DynamicProgramming.exe
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DynamicProgramming\obj\Debug\DynamicProgramming.pdb
