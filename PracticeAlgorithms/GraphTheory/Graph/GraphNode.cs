@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace GraphTheory
 {
-    class GraphNode<T> : Node<T>
+    public class GraphNode<T> : Node<T>
     {
+        public Color Color { get; set; }
+        public int Distance { get; set; }
+        public GraphNode<T> Predecessor { get; set; } 
+
         private List<int> costs;
 
         public GraphNode() : base() { }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraphTheory
 {
-    class Node<T>
+    public class Node<T>
     {
         // Private member-variables
         private T data;

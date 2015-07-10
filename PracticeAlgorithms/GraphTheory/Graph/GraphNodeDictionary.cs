@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace GraphTheory
 {
-    public class NodeDictionary<T> : IDictionary<T,Node<T>>
+    public class GraphNodeDictionary<T> : IDictionary<T, GraphNode<T>>
     {
-        protected Dictionary<T, Node<T>> nodeDict = new Dictionary<T,Node<T>>();
+        protected Dictionary<T, GraphNode<T>> nodeDict = new Dictionary<T, GraphNode<T>>();
 
-        public void Add(T key, Node<T> value)
+        public void Add(T key, GraphNode<T> value)
         {
             nodeDict.Add(key, value);
         }
@@ -30,17 +30,17 @@ namespace GraphTheory
             return nodeDict.Remove(key);
         }
 
-        public bool TryGetValue(T key, out Node<T> value)
+        public bool TryGetValue(T key, out GraphNode<T> value)
         {
-            return nodeDict.TryGetValue(key,out value);
+            return nodeDict.TryGetValue(key, out value);
         }
 
-        public ICollection<Node<T>> Values
+        public ICollection<GraphNode<T>> Values
         {
             get { return nodeDict.Values; }
         }
 
-        public Node<T> this[T key]
+        public GraphNode<T> this[T key]
         {
             get
             {
@@ -52,9 +52,9 @@ namespace GraphTheory
             }
         }
 
-        public void Add(KeyValuePair<T, Node<T>> item)
+        public void Add(KeyValuePair<T, GraphNode<T>> item)
         {
-            nodeDict[item.Key]=item.Value;
+            nodeDict[item.Key] = item.Value;
         }
 
         public void Clear()
@@ -62,7 +62,7 @@ namespace GraphTheory
             nodeDict.Clear();
         }
 
-        public bool Contains(KeyValuePair<T, Node<T>> item)
+        public bool Contains(KeyValuePair<T, GraphNode<T>> item)
         {
             if (nodeDict.ContainsKey(item.Key))
             {
@@ -74,7 +74,7 @@ namespace GraphTheory
             }
         }
 
-        public void CopyTo(KeyValuePair<T, Node<T>>[] array, int arrayIndex)
+        public void CopyTo(KeyValuePair<T, GraphNode<T>>[] array, int arrayIndex)
         {
             Copy(nodeDict, array, arrayIndex);
         }
@@ -89,12 +89,12 @@ namespace GraphTheory
             get { return false; }
         }
 
-        public bool Remove(KeyValuePair<T, Node<T>> item)
+        public bool Remove(KeyValuePair<T, GraphNode<T>> item)
         {
             return nodeDict.Remove(item.Key);
         }
 
-        public IEnumerator<KeyValuePair<T, Node<T>>> GetEnumerator()
+        public IEnumerator<KeyValuePair<T, GraphNode<T>>> GetEnumerator()
         {
             return nodeDict.GetEnumerator();
         }
@@ -104,7 +104,7 @@ namespace GraphTheory
             return this.GetEnumerator();
         }
 
-        private static void Copy<T>(Dictionary<T, Node<T>> source, KeyValuePair<T, Node<T>>[] array, int arrayIndex)
+        private static void Copy<T>(Dictionary<T, GraphNode<T>> source, KeyValuePair<T, GraphNode<T>>[] array, int arrayIndex)
         {
             if (array == null)
                 throw new ArgumentNullException("array");
@@ -115,7 +115,7 @@ namespace GraphTheory
             if ((array.Length - arrayIndex) < source.Count)
                 throw new ArgumentException("Destination array is not large enough. Check array.Length and arrayIndex.");
 
-            foreach (KeyValuePair<T,Node<T>> item in source)
+            foreach (KeyValuePair<T, GraphNode<T>> item in source)
                 array[arrayIndex++] = item;
         }
     }

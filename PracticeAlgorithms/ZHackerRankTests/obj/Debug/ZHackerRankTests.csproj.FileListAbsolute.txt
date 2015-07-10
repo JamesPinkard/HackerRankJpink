@@ -11,3 +11,5 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRan
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.dll
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.pdb
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\GraphTheory.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\GraphTheory.pdb

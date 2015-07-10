@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GraphTheory
 {
-    class NodeList<T> : Collection<Node<T>>
+    public class NodeList<T> : Collection<Node<T>>
     {
         public NodeList() : base() { }
 

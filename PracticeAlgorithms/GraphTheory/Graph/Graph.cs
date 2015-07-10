@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace GraphTheory
 {
-    class Graph<T> : IEnumerable<T>
+    public class Graph<T> : IEnumerable<GraphNode<T>>
     {
-        private NodeDictionary<T> nodeSet;
+        private GraphNodeDictionary<T> nodeSet;
 
         public Graph() : this(null) { }
-        public Graph(NodeDictionary<T> nodeSet)
+        public Graph(GraphNodeDictionary<T> nodeSet)
         {
             if (nodeSet == null)
-                this.nodeSet = new NodeDictionary<T>();
+                this.nodeSet = new GraphNodeDictionary<T>();
             else
                 this.nodeSet = nodeSet;
         }
@@ -92,7 +92,7 @@ namespace GraphTheory
             return true;
         }
 
-        public NodeDictionary<T> Nodes
+        public GraphNodeDictionary<T> Nodes
         {
             get
             {
@@ -103,6 +103,16 @@ namespace GraphTheory
         public int Count
         {
             get { return nodeSet.Count; }
+        }
+
+        public IEnumerator<GraphNode<T>> GetEnumerator()
+        {
+            return nodeSet.Values.GetEnumerator();
+        }
+
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
         }
     }
 }

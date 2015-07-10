@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DynamicProgrammingTests.cs" />
+    <Compile Include="GraphTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WarmupTests.cs" />
   </ItemGroup>
@@ -51,6 +52,10 @@
     <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj">
       <Project>{13ad1633-bc89-4664-b633-aa51476302b3}</Project>
       <Name>DynamicProgramming</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraphTheory\GraphTheory.csproj">
+      <Project>{ca2c3f06-69b4-44f1-9806-54bff6642f86}</Project>
+      <Name>GraphTheory</Name>
     </ProjectReference>
     <ProjectReference Include="..\SortingProblems\SortingProblems.csproj">
       <Project>{e9c32f3c-2f9a-49ef-8dc4-f6db9a68683a}</Project>

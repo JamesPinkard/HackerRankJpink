@@ -39,7 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BFS_Solver.cs" />
+    <Compile Include="BreadthFirstSearch.cs" />
     <Compile Include="DsearchProbability.cs" />
+    <Compile Include="Graph\Colors.cs" />
+    <Compile Include="Graph\GraphNodeDictionary.cs" />
     <Compile Include="Graph\Graph.cs" />
     <Compile Include="Graph\GraphNode.cs" />
     <Compile Include="Graph\Node.cs" />
