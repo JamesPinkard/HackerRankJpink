@@ -75,12 +75,6 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Text\input.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Text\output.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="myText.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>myText.Designer.cs</LastGenOutput>
