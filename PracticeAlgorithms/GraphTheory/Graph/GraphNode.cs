@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GraphTheory
 {
     public class GraphNode<T> : Node<T>
-    {
+    {        
         public Color Color { get; set; }
         public int Distance { get; set; }
         public GraphNode<T> Predecessor { get; set; } 

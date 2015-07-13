@@ -12,7 +12,7 @@ namespace GraphTheory
 
         public void Add(T key, GraphNode<T> value)
         {
-            nodeDict.Add(key, value);
+            nodeDict.Add(key, value);            
         }
 
         public bool ContainsKey(T key)

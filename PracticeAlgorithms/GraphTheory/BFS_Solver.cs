@@ -37,7 +37,12 @@ namespace GraphTheory
                 }
                 int startIndex = Convert.ToInt32(Console.ReadLine());
                 GraphNode<int> startNode = nodes[startIndex];
-                List<int> distances = bfs.GetDistances(myGraph, startNode);
+                bfs.GetDistances(myGraph, startNode);
+                List<int> distances = new List<int>();
+                for (int n = 0; n < nodes.Count; n++)
+                {
+                    distances.Add(nodes[n].Distance);
+                }
                 string result = String.Join(" ", distances);
                 Console.WriteLine(result);
             }

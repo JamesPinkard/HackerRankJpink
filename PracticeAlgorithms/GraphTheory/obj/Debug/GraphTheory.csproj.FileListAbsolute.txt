@@ -3,3 +3,8 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheor
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\bin\Debug\GraphTheory.pdb
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\obj\Debug\GraphTheory.dll
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\obj\Debug\GraphTheory.pdb
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\bin\Debug\GraphTheory.dll
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\bin\Debug\GraphTheory.pdb
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\obj\Debug\GraphTheory.csprojResolveAssemblyReference.cache
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\obj\Debug\GraphTheory.dll
+C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\GraphTheory\obj\Debug\GraphTheory.pdb
