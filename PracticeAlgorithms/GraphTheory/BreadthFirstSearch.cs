@@ -31,7 +31,8 @@ namespace GraphTheory
                     {
                         adjacentNode.Color = Color.Grey;
                         adjacentNode.Distance = currentNode.Distance + costs[nIndex];
-                        adjacentNode.Predecessor = currentNode;                        
+                        adjacentNode.Predecessor = currentNode;
+                        queue.Enqueue(adjacentNode);
                     }
                     nIndex++;
                 }

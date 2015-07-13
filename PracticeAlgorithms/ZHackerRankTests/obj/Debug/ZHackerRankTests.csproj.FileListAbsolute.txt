@@ -28,3 +28,6 @@ C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRa
 C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.csprojResolveAssemblyReference.cache
 C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.dll
 C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.g.resources
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.myText.resources
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.csproj.GenerateResource.Cache
