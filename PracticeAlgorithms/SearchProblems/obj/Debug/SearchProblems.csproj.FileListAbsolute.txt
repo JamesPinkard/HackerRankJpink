@@ -1,0 +1,6 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SearchProblems\bin\Debug\SearchProblems.exe.config
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SearchProblems\bin\Debug\SearchProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SearchProblems\bin\Debug\SearchProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SearchProblems\obj\Debug\SearchProblems.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SearchProblems\obj\Debug\SearchProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\SearchProblems\obj\Debug\SearchProblems.pdb

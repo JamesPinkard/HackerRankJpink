@@ -1,0 +1,5 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DataStructures\bin\Debug\DataStructures.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DataStructures\obj\Debug\DataStructures.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DataStructures\obj\Debug\DataStructures.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\DataStructures\obj\Debug\DataStructures.pdb
