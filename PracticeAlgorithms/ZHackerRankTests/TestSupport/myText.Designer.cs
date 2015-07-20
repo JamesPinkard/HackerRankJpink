@@ -39,7 +39,7 @@ namespace ZHackerRankTests {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZHackerRankTests.myText", typeof(myText).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZHackerRankTests.TestSupport.myText", typeof(myText).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

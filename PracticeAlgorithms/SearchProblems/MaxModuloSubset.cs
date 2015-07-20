@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace SearchProblems
 {
-    class MaxModuloSubset
+    public class MaxModuloSubset
     {
+
+        static void Solve(string[] args)
+        {
+            
+        }
 
         // Practice 2
         // Check through every possible subset in a list of numbers
@@ -40,6 +45,11 @@ namespace SearchProblems
                     return false;
                 }
             }
+        }
+
+        public static int GetMaxModSum(List<int> testSet, int p)
+        {
+            throw new NotImplementedException();
         }
     }
 }

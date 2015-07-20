@@ -8,7 +8,7 @@ using NUnit.Framework;
 using DynamicProgramming;
 using System.Numerics;
 
-namespace UnitHackerRankTests
+namespace ZHackerRankTests
 {
     [TestFixture]
     public class DynamicProgrammingTests

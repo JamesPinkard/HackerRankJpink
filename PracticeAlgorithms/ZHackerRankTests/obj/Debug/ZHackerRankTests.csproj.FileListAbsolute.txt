@@ -28,6 +28,10 @@ C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRa
 C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.csprojResolveAssemblyReference.cache
 C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.dll
 C:\Users\jpink_000\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.pdb
-C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.g.resources
-C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.myText.resources
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.csproj.GenerateResource.Cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.TestSupport.myText.resources
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\TestSupport\myText.resx
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\DataStructures.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\SearchProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\DataStructures.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\SearchProblems.pdb
