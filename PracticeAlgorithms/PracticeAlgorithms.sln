@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZHackerRankTests", "ZHacker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTheory", "GraphTheory\GraphTheory.csproj", "{CA2C3F06-69B4-44F1-9806-54BFF6642F86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchProblems", "SearchProblems\SearchProblems.csproj", "{95F235B5-039B-4BFB-8C04-B1ADDD65B326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CA2C3F06-69B4-44F1-9806-54BFF6642F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2C3F06-69B4-44F1-9806-54BFF6642F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2C3F06-69B4-44F1-9806-54BFF6642F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F235B5-039B-4BFB-8C04-B1ADDD65B326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F235B5-039B-4BFB-8C04-B1ADDD65B326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F235B5-039B-4BFB-8C04-B1ADDD65B326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F235B5-039B-4BFB-8C04-B1ADDD65B326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
