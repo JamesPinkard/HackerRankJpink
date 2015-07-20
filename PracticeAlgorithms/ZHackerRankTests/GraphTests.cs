@@ -43,7 +43,7 @@ namespace ZHackerRankTests
         {
             BreadthFirstSearch<int> bfs = new BreadthFirstSearch<int>();
             
-            using (StringReader sr = new StringReader(myText.input))
+            using (StringReader sr = new StringReader(myText.bfs_input))
             {
                 int numberOfTestcases = Convert.ToInt32(sr.ReadLine());
                 int[] nodeEdges = ReadStringIntoNumArray(sr.ReadLine());

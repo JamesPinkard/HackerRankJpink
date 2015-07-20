@@ -35,3 +35,5 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRan
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\SearchProblems.exe
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\DataStructures.pdb
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\SearchProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\TestSupport\myText.Designer.cs
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\obj\Debug\ZHackerRankTests.Properties.Resources.resources

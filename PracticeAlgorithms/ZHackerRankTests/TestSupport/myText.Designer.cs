@@ -139,18 +139,87 @@ namespace ZHackerRankTests {
         ///49 1
         ///34 29 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string input {
+        internal static string bfs_input {
             get {
-                return ResourceManager.GetString("input", resourceCulture);
+                return ResourceManager.GetString("bfs_input", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 6 6 6 6 12 6 12 6 12 12 6 6 6 6 6 12 12 6 6 6 6 12 6 12 6 12 6 12 12 12 12 6 12 12 6 12 12 6 12 6 12 6 12 12 6 6 12 6 6 6 6 12 12 12 12 6 6 6 12 6 6 12 12 12 12 12 12 6 6.
         /// </summary>
-        internal static string output {
+        internal static string bfs_output {
             get {
-                return ResourceManager.GetString("output", resourceCulture);
+                return ResourceManager.GetString("bfs_output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 625
+        ///800 911324978
+        ///722004653 422841575 1754347026 1268413156 1473882809 1159578250 1530954015 864433040 1429795835 446639653 1456334267 1839516330 2068337890 1717436812 1339403205 1950189949 935504206 276721350 551949780 232859945 1740272925 856190207 1928885286 1877378581 1413978977 737603307 347450411 610395285 257883982 638516573 1521720262 979888635 1061358147 1128583639 100818142 387757307 140678240 1631772156 1252190346 1570474075 2078411808 561040965 1262506756 1999266049 130994128 454426313 180197235 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string maxmod_input06 {
+            get {
+                return ResourceManager.GetString("maxmod_input06", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 911323095
+        ///1077818923
+        ///610823573
+        ///47800459
+        ///1921382181
+        ///1556079396
+        ///2003043015
+        ///681118606
+        ///386161441
+        ///173999099
+        ///1888839733
+        ///773319624
+        ///491558847
+        ///521966962
+        ///1255419509
+        ///252944361
+        ///426020741
+        ///1446799556
+        ///241120802
+        ///489925853
+        ///574424974
+        ///1022327490
+        ///341954250
+        ///2046734835
+        ///1697313963
+        ///702217811
+        ///39898412
+        ///161479641
+        ///634832594
+        ///254575251
+        ///66430599
+        ///1174521694
+        ///863138810
+        ///590864761
+        ///588755629
+        ///113642111
+        ///1665655675
+        ///901877262
+        ///1530624898
+        ///1557663911
+        ///1190574403
+        ///725063263
+        ///193290410
+        ///2056233463
+        ///682111814
+        ///509614746
+        ///118892272
+        ///1086285597
+        ///1306500337
+        ///1471455 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string maxmod_output06 {
+            get {
+                return ResourceManager.GetString("maxmod_output06", resourceCulture);
             }
         }
     }

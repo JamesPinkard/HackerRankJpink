@@ -46,11 +46,17 @@
     <Compile Include="DynamicProgrammingTests.cs" />
     <Compile Include="GraphTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SearchTests.cs" />
     <Compile Include="TestSupport\myText.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>myText.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="WarmupTests.cs" />
   </ItemGroup>
@@ -84,12 +90,31 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="TestSupport\myText.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CustomToolNamespace>ZHackerRankTests</CustomToolNamespace>
       <LastGenOutput>myText.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bfs_input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bfs_output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\input06.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxmod_output06.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
