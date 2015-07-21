@@ -41,7 +41,7 @@ namespace ZHackerRankTests
                     Int64 expected = Convert.ToInt64(output.ReadLine());
                     
                     Int64 maxSum = MaxModuloSubset.GetMaxModSum(mySet, modulo);
-
+                    
                     Assert.AreEqual(expected, maxSum);
                 }
             }

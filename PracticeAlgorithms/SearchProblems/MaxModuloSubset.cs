@@ -69,10 +69,7 @@ namespace SearchProblems
                 {
                     sum += testSet[j];
                     Int64 modSum = sum % modulo;
-                    if (modSum == maxPossibleNumber)
-                    {
-                        return modSum;
-                    }
+
                     if (modSum > max)
                     {
                         max = modSum;                        

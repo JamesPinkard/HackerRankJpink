@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DynamicProgrammingTests.cs" />
     <Compile Include="GraphTests.cs" />
+    <Compile Include="ImplementationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -72,6 +73,10 @@
     <ProjectReference Include="..\GraphTheory\GraphTheory.csproj">
       <Project>{ca2c3f06-69b4-44f1-9806-54bff6642f86}</Project>
       <Name>GraphTheory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Implementation\Implementation.csproj">
+      <Project>{8bb27b48-1080-49e3-8dad-22921cf1fd44}</Project>
+      <Name>Implementation</Name>
     </ProjectReference>
     <ProjectReference Include="..\SearchProblems\SearchProblems.csproj">
       <Project>{95f235b5-039b-4bfb-8c04-b1addd65b326}</Project>

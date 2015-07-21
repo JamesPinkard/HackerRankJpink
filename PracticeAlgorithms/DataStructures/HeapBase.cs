@@ -8,7 +8,7 @@ namespace DataStructures
 {
     public abstract class HeapBase<T> : IHeap<T>
         where T: class
-    {
+    {/*
         private readonly Comparison<T> _keyCompareFunc;
         private readonly Func<T, T, bool> _elementCompareFunc;
         private List<T> _elements = new List<T>();
@@ -29,7 +29,7 @@ namespace DataStructures
             return this.Root;
         }
 
-        public virtual void UpdateKey<TKey>(T element, Action<T, TKey> keyUpdateFunc, TKey newValue)
+        public virtual void UpdateKey<TKey>(T element, Action<T, TKey> keyUpdateFunc, TKey newValue);
         public virtual void Insert(T element);
         public virtual void Clear();
         public virtual void Remove(T element);
@@ -47,6 +47,45 @@ namespace DataStructures
         protected Func<T, T, bool> ElementCompareFunc
         {
             get { return _elementCompareFunc; }
+        }*/
+        public T ExtractRoot()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateKey<TKey>(T element, Action<T, TKey> keyUpdateFunc, TKey newValue)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(T element)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Clear()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(T element)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Contains(T element)
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Root
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public int Count
+        {
+            get { throw new NotImplementedException(); }
         }
     }
 }
