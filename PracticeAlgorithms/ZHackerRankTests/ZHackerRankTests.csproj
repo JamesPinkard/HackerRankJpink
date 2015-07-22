@@ -53,6 +53,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SearchTests.cs" />
+    <Compile Include="StringTests.cs" />
     <Compile Include="TestSupport\myText.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -85,6 +86,10 @@
     <ProjectReference Include="..\SortingProblems\SortingProblems.csproj">
       <Project>{e9c32f3c-2f9a-49ef-8dc4-f6db9a68683a}</Project>
       <Name>SortingProblems</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StringProblems\StringProblems.csproj">
+      <Project>{db8e4a05-d1ef-4617-858b-614a39208d77}</Project>
+      <Name>StringProblems</Name>
     </ProjectReference>
     <ProjectReference Include="..\WarmupProblems\WarmupProblems.csproj">
       <Project>{27babe54-432e-43e9-8368-09ab3ed008d4}</Project>

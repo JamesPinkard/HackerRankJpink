@@ -14,6 +14,7 @@ namespace ZHackerRankTests
     public class SearchTests
     {
         [Test]
+        [Category("fast")]
         public void MaxModuloSubset_GetMaxModSum_ReturnsSix()
         {
             Int64 modulo = 7;
@@ -26,6 +27,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("reads test file")]
         public void MaxModuloSubset_GetMaxModSum_TestFile06()
         {
             using (StringReader output = new StringReader(myText.maxmod_output06))

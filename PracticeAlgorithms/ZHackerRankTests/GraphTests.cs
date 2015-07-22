@@ -15,6 +15,7 @@ namespace ZHackerRankTests
     {
 
         [Test]
+        [Category("fast")]
         public void BreadthFirstSearch_FourNodesStartNodeOne_Returns661()
         {
             int numberOfTestcases = 1;
@@ -39,6 +40,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("reads test file")]
         public void BreadthFirstSearch_TextReturnsOutput()
         {
             BreadthFirstSearch<int> bfs = new BreadthFirstSearch<int>();

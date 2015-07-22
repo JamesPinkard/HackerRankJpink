@@ -13,6 +13,7 @@ namespace ZHackerRankTests
     public class ImplementationTests
     {
         [Test]
+        [Category("fast")]
         public void CutTheSticks_GetCuts_ReturnsList()
         {
             List<int> input = new List<int>() { 5, 4, 4, 2, 2, 8 };

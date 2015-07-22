@@ -15,6 +15,7 @@ namespace ZHackerRankTests
     {
         
         [Test]
+        [Category("fast")]
         public void Fibonacci_ZeroOne_ReturnsFiveOnFifthTerm()
         {
             BigInteger zero = 0;
@@ -27,6 +28,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void NewFibonacci_ZeroOne_ReturnsFiveOnFifthTerm()
         {
             BigInteger zero = 0;
@@ -39,6 +41,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void NewFibonacci_TwoTwo_ReturnsBigResultOnTwentiethTerm()
         {
             BigInteger firstTwo = 2;

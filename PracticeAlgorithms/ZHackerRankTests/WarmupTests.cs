@@ -16,6 +16,7 @@ namespace ZHackerRankTests
         string[] testString = new string[] {"3 5 7", "4 9 2","5 2 0"};
 
         [Test]
+        [Category("fast")]
         public void ReadIntoGrid_YieldsArray()
         {
             // Setup
@@ -27,6 +28,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void GetDiagonalDifference_YieldsDifference()
         {
             int[,] grid = DiagonalSums.ReadIntoGrid(testString, 3, 3);
@@ -38,6 +40,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void Staircase_ReturnThreeStairs()
         {
             int numberOfStairs = 3;
@@ -49,6 +52,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void BigFactorial_TwentyFive()
         {
             BigInteger number = 25;
@@ -60,6 +64,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void TimeConversion_MilitaryTime()
         {
             string expected = "19:05:45";
@@ -70,6 +75,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void CaeserCipher_phrase_TwoRotations()
         {
             int length = 11;
@@ -82,6 +88,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void DateTime_Test()
         {
             string date = "9 6 2015";
@@ -101,6 +108,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void DateTime_MinusSpan_ReturnsDaysMonthsYears()
         {
             string returnedDate = "9 6 2015";
@@ -115,6 +123,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
+        [Category("fast")]
         public void ConsoleHelper_StringToIntArray()
         {
             int[] expected = new int[] { 1, 4, 5, 7, 9, 12 };

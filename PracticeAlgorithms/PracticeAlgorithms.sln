@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation", "Implementation\Implementation.csproj", "{8BB27B48-1080-49E3-8DAD-22921CF1FD44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringProblems", "StringProblems\StringProblems.csproj", "{DB8E4A05-D1EF-4617-858B-614A39208D77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{8BB27B48-1080-49E3-8DAD-22921CF1FD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BB27B48-1080-49E3-8DAD-22921CF1FD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BB27B48-1080-49E3-8DAD-22921CF1FD44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8E4A05-D1EF-4617-858B-614A39208D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8E4A05-D1EF-4617-858B-614A39208D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8E4A05-D1EF-4617-858B-614A39208D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8E4A05-D1EF-4617-858B-614A39208D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
