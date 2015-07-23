@@ -39,3 +39,5 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRan
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\Implementation.pdb
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\StringProblems.exe
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\StringProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\BytesAndBits.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\ZHackerRankTests\bin\Debug\BytesAndBits.pdb

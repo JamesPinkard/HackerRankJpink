@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BytesAndBitsTests.cs" />
     <Compile Include="DynamicProgrammingTests.cs" />
     <Compile Include="GraphTests.cs" />
     <Compile Include="ImplementationTests.cs" />
@@ -63,6 +64,10 @@
     <Compile Include="WarmupTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BytesAndBits\BytesAndBits.csproj">
+      <Project>{b9622429-bf7f-4dce-a50a-c956dcbcb693}</Project>
+      <Name>BytesAndBits</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj">
       <Project>{13ad1633-bc89-4664-b633-aa51476302b3}</Project>
       <Name>DynamicProgramming</Name>

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-    public class Class1
+    public enum Color
     {
+        Black, White, Red, Blue, Green, Grey
     }
 }

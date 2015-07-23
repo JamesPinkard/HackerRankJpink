@@ -1,0 +1,11 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\UnitTests_CoreAlgorithms.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\UnitTests_CoreAlgorithms.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\DataStructures.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\GraphAlgorithms.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\nunit.framework.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\DataStructures.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\GraphAlgorithms.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\nunit.framework.xml
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.pdb

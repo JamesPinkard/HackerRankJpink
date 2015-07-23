@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-    public abstract class HeapBase<T> : IHeap<T>
-        where T : class
+    public abstract class HeapBase<T> : IHeap<T>        
     {        
         
         private List<T> _elements = new List<T>();
@@ -27,21 +26,29 @@ namespace DataStructures
         
 
         // Methods
-
-        public void Insert(T element)
+        public void Add(T element)
         {
             _elements.Add(element);
-            int index = _elements.Count - 1;
+            int index = _elements.Count - 1;            
             FloatUp(index);
+        }
+
+        public void AddRange(IEnumerable<T> elements)
+        {
+            foreach (var e in elements)
+            {                
+                Add(e);
+            }
         }
 
         protected void FloatUp(int index)
         {       
-            int parent = Parent(index);
+            int parent = Parent(index);            
             while (index > 0 && !ElementCompare(_elements[parent],_elements[index]))
             {
                 swap(index, parent);
                 index = parent;
+                parent = Parent(index);
             }
         }
 

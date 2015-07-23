@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-    public interface IHeap<T>
-        where T : class
+    public interface IHeap<T>        
     {
         // Methods
         T ExtractRoot();
-        
-        void Insert(T element);
+
+        void AddRange(IEnumerable<T> elements);
+        void Add(T element);
         void Clear();
         void Remove(T element);
         bool Contains(T element);

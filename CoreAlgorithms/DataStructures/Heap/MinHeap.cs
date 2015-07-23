@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-    class MaxHeap<T> : HeapBase<T> where T : class
+    public class MinHeap<T> : HeapBase<T>
     {
-        public MaxHeap() { }
+        public MinHeap() { }
+
         
         
         public int Compare(T x, T y)
@@ -19,7 +20,7 @@ namespace DataStructures
 
         protected override bool ElementCompare(T x, T y)
         {
-            return Compare(x, y) > 0;
+            return Compare(x, y) < 0;
         }
     }
 }

@@ -3,3 +3,5 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithm
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.csprojResolveAssemblyReference.cache
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.dll
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\bin\Debug\DataStructures.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\bin\Debug\DataStructures.pdb
