@@ -1,0 +1,6 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\StringProblems\bin\Debug\StringProblems.exe.config
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\StringProblems\bin\Debug\StringProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\StringProblems\bin\Debug\StringProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\StringProblems\obj\Debug\StringProblems.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\StringProblems\obj\Debug\StringProblems.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\StringProblems\obj\Debug\StringProblems.csprojResolveAssemblyReference.cache

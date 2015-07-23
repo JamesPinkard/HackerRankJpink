@@ -1,0 +1,6 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\Implementation\bin\Debug\Implementation.exe.config
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\Implementation\bin\Debug\Implementation.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\Implementation\bin\Debug\Implementation.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\Implementation\obj\Debug\Implementation.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\Implementation\obj\Debug\Implementation.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\Implementation\obj\Debug\Implementation.pdb

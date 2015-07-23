@@ -1,0 +1,6 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\BytesAndBits\bin\Debug\BytesAndBits.exe.config
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\BytesAndBits\bin\Debug\BytesAndBits.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\BytesAndBits\bin\Debug\BytesAndBits.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\BytesAndBits\obj\Debug\BytesAndBits.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\BytesAndBits\obj\Debug\BytesAndBits.exe
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\PracticeAlgorithms\BytesAndBits\obj\Debug\BytesAndBits.pdb
