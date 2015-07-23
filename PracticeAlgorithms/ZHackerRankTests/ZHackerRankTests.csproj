@@ -63,10 +63,6 @@
     <Compile Include="WarmupTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataStructures\DataStructures.csproj">
-      <Project>{42dec61a-ed05-4d4e-8164-17b454062fa2}</Project>
-      <Name>DataStructures</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj">
       <Project>{13ad1633-bc89-4664-b633-aa51476302b3}</Project>
       <Name>DynamicProgramming</Name>
