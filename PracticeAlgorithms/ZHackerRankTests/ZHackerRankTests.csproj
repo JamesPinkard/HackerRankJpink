@@ -54,6 +54,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SearchTests.cs" />
+    <Compile Include="Solution.cs" />
     <Compile Include="StringTests.cs" />
     <Compile Include="TestSupport\myText.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraphTheory
 {
-    class BFS_Solver
+    public class BFS_Solver
     {
         static void Solve(string[] args)
         {
