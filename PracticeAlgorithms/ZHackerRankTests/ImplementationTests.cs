@@ -22,5 +22,38 @@ namespace ZHackerRankTests
 
             Assert.AreEqual(new List<int>() {6,4,2,1},numberOfCuts);
         }
+
+        [Test]
+        [Category("fast")]
+        public void SherlockBeast_NotPossible_ReturnsNegOne()
+        {
+            int test = 4;
+            string expected = "-1";
+            string result = SherlockBeast.Solve(test);
+
+            Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        [Category("fast")]
+        public void SherlockBeast_Eleven_ReturnsSixFivesFiveThrees()
+        {
+            int test = 11;
+            string expected = "55555533333";
+            string result = SherlockBeast.Solve(test);
+
+            Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        [Category("fast")]
+        public void SherlockBeast_Sixteen()
+        {
+            int test = 16;
+            string expected = "5555553333333333";
+            string result = SherlockBeast.Solve(test);
+
+            Assert.AreEqual(expected, result);
+        }
     }
 }
