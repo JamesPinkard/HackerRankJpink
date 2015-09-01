@@ -40,7 +40,7 @@ namespace UnitTests_CoreAlgorithms
         }
 
         [Test]
-        public void MinHeap_ExtractRoot_ReturnsMax()
+        public void MinHeap_ExtractRoot_ReturnsMin()
         {
             List<int> testNumbers = GetTestNumbers();
             MinHeap<int> heap = new MinHeap<int>();

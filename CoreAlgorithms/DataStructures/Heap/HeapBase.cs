@@ -148,9 +148,5 @@ namespace DataStructures
         }
 
 
-        protected Func<T, T, bool> ElementCompareFunc
-        {
-            get { return ElementCompare; }
-        }  
     }
 }
