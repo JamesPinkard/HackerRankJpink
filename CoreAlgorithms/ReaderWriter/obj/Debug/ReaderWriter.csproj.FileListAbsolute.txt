@@ -1,0 +1,5 @@
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\bin\Debug\ReaderWriter.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\bin\Debug\ReaderWriter.pdb
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.csprojResolveAssemblyReference.cache
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.dll
+C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.pdb
