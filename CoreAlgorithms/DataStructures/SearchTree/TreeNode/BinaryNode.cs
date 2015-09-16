@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-    public class BinaryNode<T>
+    public class BinaryNode<T> where T : IComparable<T>
     {
         public BinaryNode<T> RightChild { get; set; }
         public BinaryNode<T> LeftChild { get; set; }
@@ -77,6 +77,20 @@ namespace DataStructures
                         node = nodes.Pop();
                     }
                 }
+            }
+        }
+
+        public void AddNode(T value)
+        {
+            if (value.CompareTo(NodeValue) < 0)
+            {
+                if (LeftChild == null) { LeftChild = new BinaryNode<T>(value); }
+                else { LeftChild.AddNode(value); }
+            }
+            else
+            {
+                if (RightChild == null) { RightChild = new BinaryNode<T>(value); }
+                else { RightChild.AddNode(value); }
             }
         }
     }

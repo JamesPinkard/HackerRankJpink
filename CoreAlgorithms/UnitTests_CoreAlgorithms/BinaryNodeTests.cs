@@ -63,5 +63,25 @@ namespace UnitTests_CoreAlgorithms
 
             Assert.AreEqual(expected, root.TreeListing);
         }
+
+        [Test]
+        public void AddNode_AddEightRandomNumbers_OrderIsSorted()
+        {
+            BinaryNode<int> root = new BinaryNode<int>(4);
+            List<int> expected = new List<int>() { 4 };
+            Random rand = new Random();
+
+            for (int i = 0; i < 8; i++)
+            {
+                int x = rand.Next(0, 100);
+                root.AddNode(x);
+                expected.Add(x);
+                Console.WriteLine(x);
+            }
+            root.TraverseInorder();
+            expected.Sort();
+
+            Assert.AreEqual(expected, root.TreeListing);
+        }
     }
 }
