@@ -3,3 +3,8 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\b
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.csprojResolveAssemblyReference.cache
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.dll
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.pdb
+C:\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\bin\Debug\ReaderWriter.dll
+C:\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\bin\Debug\ReaderWriter.pdb
+C:\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.csprojResolveAssemblyReference.cache
+C:\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.dll
+C:\GitHub\HackerRankJpink\CoreAlgorithms\ReaderWriter\obj\Debug\ReaderWriter.pdb

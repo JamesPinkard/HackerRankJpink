@@ -3,3 +3,8 @@ C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\obj\Debug\DataStructures.dll
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\obj\Debug\DataStructures.pdb
 C:\Users\jpinkard\Documents\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\obj\Debug\DataStructures.csprojResolveAssemblyReference.cache
+C:\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\bin\Debug\DataStructures.dll
+C:\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\bin\Debug\DataStructures.pdb
+C:\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\obj\Debug\DataStructures.csprojResolveAssemblyReference.cache
+C:\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\obj\Debug\DataStructures.dll
+C:\GitHub\HackerRankJpink\CoreAlgorithms\DataStructures\obj\Debug\DataStructures.pdb
