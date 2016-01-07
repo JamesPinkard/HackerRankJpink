@@ -56,6 +56,7 @@
     <Compile Include="SearchTree\ISearchTree.cs" />
     <Compile Include="SearchTree\SearchTreeBase.cs" />
     <Compile Include="SearchTree\TreeNode\BinaryNode.cs" />
+    <Compile Include="SearchTree\TreeNode\RedBlackNode.cs" />
     <Compile Include="SearchTree\TreeNode\TreeNode.cs" />
   </ItemGroup>
   <ItemGroup />
