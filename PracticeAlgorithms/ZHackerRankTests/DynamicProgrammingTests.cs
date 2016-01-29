@@ -41,7 +41,7 @@ namespace ZHackerRankTests
         }
 
         [Test]
-        [Category("fast")]
+        [Category("slow")]
         public void NewFibonacci_TwoTwo_ReturnsBigResultOnTwentiethTerm()
         {
             BigInteger firstTwo = 2;

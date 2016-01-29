@@ -8,7 +8,7 @@ namespace Implementation
 {
     public class SherlockBeast
     {
-        static void Main(String[] args)
+        static void SolveInput(String[] args)
         {
             int cases = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < cases; i++)
