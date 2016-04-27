@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraphAlgorithms.AdjacencyListGraph
 {
-    interface IDataReader
+    public interface IDataReader
     {
         IEnumerable<string> ReadAllLines();
     }

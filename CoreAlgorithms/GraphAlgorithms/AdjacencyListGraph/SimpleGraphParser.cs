@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GraphAlgorithms.AdjacencyListGraph
 {
-    class SimpleGraphParser : IGraphParser
+    public class SimpleGraphParser : IGraphParser
     {
-        public IEnumerable<Node> Parse(IEnumerable<string> nodeData)
+        public IList<Node> Parse(IEnumerable<string> nodeData)
         {
             List<string> dataList = nodeData.ToList();
 
@@ -24,9 +24,54 @@ namespace GraphAlgorithms.AdjacencyListGraph
 
         public Node[,] CreateNodeMatrix(List<string> datarows)
         {
-            var stringMatrix = getStringMatrix(datarows.GetRange(2, datarows.Count - 2));
+            var stringMatrix = getStringMatrix(datarows);
             int[,] valueMatrix = getIntegerMatrix(stringMatrix);
             Node[,] nodeMatrix = makeNodeMatrix(valueMatrix);
+            return nodeMatrix;
+        }
+
+        private string[,] getStringMatrix(List<string> dataList)
+        {
+            string[,] stringMatrix = new string[_rows, _columns];
+
+            for (int ri = 0; ri < dataList.Count; ri++)
+            {
+                string[] entries = dataList[ri].Split();
+
+                for (int ei = 0; ei < entries.Length; ei++)
+                {
+                    stringMatrix[ri, ei] = entries[ei];
+                }
+            }
+            return stringMatrix;
+        }
+
+        private int[,] getIntegerMatrix(string[,] stringMatrix)
+        {
+            int[,] matrix = new int[_rows, _columns];
+
+            for (int ri = 0; ri < _rows; ri++)
+            {
+                for (int ci = 0; ci < _columns; ci++)
+                {
+                    matrix[ri, ci] = Convert.ToInt32(stringMatrix[ri, ci]);
+                }
+            }
+            return matrix;
+        }
+
+        private Node[,] makeNodeMatrix(int[,] valueMatrix)
+        {               
+            Node[,] nodeMatrix = new Node[_rows,_columns];
+
+            for (int ri = 0; ri < _rows; ri++)
+            {
+                for (int ci = 0; ci < _columns; ci++)
+                {
+                    Node node = new Node(valueMatrix[ri, ci]);
+                    nodeMatrix[ri, ci] = node;
+                }
+            }
             return nodeMatrix;
         }
 
@@ -38,14 +83,14 @@ namespace GraphAlgorithms.AdjacencyListGraph
             {
                 for (int ci = 0; ci < _columns; ci++)
                 {
-                    List<GridIndex> neighborIndices = getNeighborCells(ri, ci);
                     var thisNode = nodeMatrix[ri, ci];
+                    nodes.Add(thisNode);
+                    List<GridIndex> neighborIndices = getNeighborCells(ri, ci);
 
                     foreach (var index in neighborIndices)
                     {
                         var neigbor = nodeMatrix[index.Row, index.Column];
                         thisNode.AddNeighbor(neigbor);
-                        nodes.Add(thisNode);
                     }
                 }
             }
@@ -73,51 +118,6 @@ namespace GraphAlgorithms.AdjacencyListGraph
         private bool ValidIndex(GridIndex index)
         {
             return (index.Row >= 0 && index.Row < _rows && index.Column >= 0 && index.Column < _columns);
-        }
-
-        private Node[,] makeNodeMatrix(int[,] valueMatrix)
-        {               
-            Node[,] nodeMatrix = new Node[_rows,_columns];
-
-            for (int ri = 0; ri < _rows; ri++)
-            {
-                for (int ci = 0; ci < _columns; ci++)
-                {
-                    Node node = new Node(valueMatrix[ri, ci]);
-                    nodeMatrix[ri, ci] = node;
-                }
-            }
-            return nodeMatrix;
-        }
-
-        private int[,] getIntegerMatrix(string[,] stringMatrix)
-        {
-            int[,] matrix = new int[_rows, _columns];
-
-            for (int ri = 0; ri < _rows; ri++)
-            {
-                for (int ci = 0; ci < _columns; ci++)
-                {
-                    matrix[ri, ci] = Convert.ToInt32(stringMatrix[ri, ci]);
-                }
-            }
-            return matrix;
-        }
-
-        private string[,] getStringMatrix(List<string> dataList)
-        {
-            string[,] stringMatrix = new string[_rows, _columns];
-
-            for (int ri = 0; ri < dataList.Count; ri++)
-            {
-                string[] entries = dataList[ri].Split();
-
-                for (int ei = 0; ei < entries.Length; ei++)
-                {
-                    stringMatrix[ri, ei] = entries[ei];
-                }
-            }
-            return stringMatrix;
         }
 
         private int _rows;

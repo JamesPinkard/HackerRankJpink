@@ -8,21 +8,31 @@ namespace GraphAlgorithms.AdjacencyListGraph
 {
     public class Node
     {
-        public int NodeValue { get; set; }           
+        public int Value { get; set; }
+        public ConsoleColor Color { get; set; }
+        public int Degree { get; set; }
 
-        private List<Edge> _neighborNodes = new List<Edge>();
+        public List<IEdge> NeighborEdges { get { return _neighborNodes; } }
 
         public Node(int nodeValue)
         {
-            this.NodeValue = nodeValue;            
+            this.Value = nodeValue;            
         }        
 
-        public void AddNeighbor(Node node)
+        public void AddNeighbor(Node neighborNode)
         {
-            var edge = new Edge(this, node);
+            var edge = new Edge(this, neighborNode);
             _neighborNodes.Add(edge);            
         }
+                
+        public void ExtendNeighbors(IEnumerable<Node> neighbors)
+        {
+            foreach (var node in neighbors)
+            {
+                AddNeighbor(node);
+            }
+        }
 
-        
+        private List<IEdge> _neighborNodes = new List<IEdge>();
     }
 }

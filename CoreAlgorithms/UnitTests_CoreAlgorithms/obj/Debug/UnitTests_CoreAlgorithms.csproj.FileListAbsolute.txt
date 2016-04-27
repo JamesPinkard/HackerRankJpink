@@ -29,3 +29,5 @@ C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms
 C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.csprojResolveAssemblyReference.cache
 C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.dll
 C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\NSubstitute.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\NSubstitute.xml

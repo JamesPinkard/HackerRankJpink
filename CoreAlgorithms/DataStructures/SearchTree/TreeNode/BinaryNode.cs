@@ -22,7 +22,7 @@ namespace DataStructures
         {
             // Section 1
             if (LeftChild != null) { LeftChild.TraverseInorderRecursively(); }
-            Console.WriteLine(NodeValue.ToString());
+            //Console.WriteLine(NodeValue.ToString());
 
             // Section 2
             if (RightChild != null) { RightChild.TraverseInorderRecursively(); }
@@ -42,7 +42,7 @@ namespace DataStructures
             {
                 if (section == 1)
                 {
-                    Console.WriteLine("Section 1: Node {0}", node.NodeValue);
+                    //Console.WriteLine("Section 1: Node {0}", node.NodeValue);
                     section += 1;
                     if (node.LeftChild != null)
                     {
@@ -54,7 +54,7 @@ namespace DataStructures
                 }
                 else if (section == 2)
                 {
-                    Console.WriteLine("Section 2: Node {0}", node.NodeValue);
+                    //Console.WriteLine("Section 2: Node {0}", node.NodeValue);
                     section += 1;
                     TreeListing.Add(node.NodeValue);
                     if (node.RightChild != null)
@@ -69,7 +69,7 @@ namespace DataStructures
                 {
                     // Return from recursion
                     // If there's nothing to pop, we're at the top.
-                    Console.WriteLine("Section 3: Node {0}", node.NodeValue);
+                    //Console.WriteLine("Section 3: Node {0}", node.NodeValue);
                     if (sections.Count == 0) { section = -1; }
                     else
                     {

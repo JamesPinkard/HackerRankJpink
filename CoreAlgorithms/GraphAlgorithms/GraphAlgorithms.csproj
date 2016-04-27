@@ -41,14 +41,16 @@
   <ItemGroup>
     <Compile Include="AdjacencyListGraph\Edge.cs" />
     <Compile Include="AdjacencyListGraph\GridIndex.cs" />
+    <Compile Include="AdjacencyListGraph\IEdge.cs" />
     <Compile Include="AdjacencyListGraph\IGraphParser.cs" />
+    <Compile Include="AdjacencyListGraph\IRegionMapper.cs" />
+    <Compile Include="AdjacencyListGraph\RegionMapper.cs" />
     <Compile Include="AdjacencyListGraph\SimpleGraphParser.cs" />
     <Compile Include="AdjacencyListGraph\StreamDataReader.cs" />
-    <Compile Include="AdjacencyListGraph\GraphProcessor.cs" />
+    <Compile Include="AdjacencyListGraph\RegionProcessor.cs" />
     <Compile Include="AdjacencyListGraph\IDataReader.cs" />
     <Compile Include="AdjacencyListGraph\Node.cs" />
     <Compile Include="AdjacencyListGraph\Graph.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Graph\Graph.cs" />
     <Compile Include="Graph\GraphNode.cs" />
     <Compile Include="Graph\GraphNodeDictionary.cs" />

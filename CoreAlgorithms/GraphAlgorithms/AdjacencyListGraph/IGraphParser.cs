@@ -4,6 +4,6 @@ namespace GraphAlgorithms.AdjacencyListGraph
 {
     public interface IGraphParser
     {
-        IEnumerable<Node> Parse(IEnumerable<string> nodeData);
+        IList<Node> Parse(IEnumerable<string> nodeData);
     }
 }

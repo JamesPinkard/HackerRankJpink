@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraphAlgorithms.AdjacencyListGraph
 {
-    class Edge
+    class Edge : IEdge
     {
         public Node FromNode { get; private set; }
         public Node ToNode { get; private set; }
