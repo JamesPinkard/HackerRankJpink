@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GraphAlgorithms
+namespace GraphAlgorithms.AdjacencyListGraph
 {
-    public class Class1
+    public interface IDataReader
     {
+        IEnumerable<string> ReadAllLines();
     }
 }

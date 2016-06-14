@@ -12,3 +12,10 @@ C:\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\bin\Debug\DataStructure
 C:\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.csprojResolveAssemblyReference.cache
 C:\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.dll
 C:\GitHub\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\bin\Debug\GraphAlgorithms.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\bin\Debug\GraphAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\bin\Debug\DataStructures.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\GraphAlgorithms\bin\Debug\DataStructures.pdb

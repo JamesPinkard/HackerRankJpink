@@ -19,3 +19,15 @@ C:\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\nuni
 C:\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.csprojResolveAssemblyReference.cache
 C:\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.dll
 C:\GitHub\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\UnitTests_CoreAlgorithms.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\UnitTests_CoreAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\DataStructures.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\GraphAlgorithms.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\DataStructures.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\GraphAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\nunit.framework.xml
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\obj\Debug\UnitTests_CoreAlgorithms.pdb
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\NSubstitute.dll
+C:\Users\James\Documents\HackerRankJpink\CoreAlgorithms\UnitTests_CoreAlgorithms\bin\Debug\NSubstitute.xml

@@ -75,8 +75,7 @@ namespace UnitTests_CoreAlgorithms
             {
                 int x = rand.Next(0, 100);
                 root.AddNode(x);
-                expected.Add(x);
-                Console.WriteLine(x);
+                expected.Add(x);                
             }
             root.TraverseInorder();
             expected.Sort();
