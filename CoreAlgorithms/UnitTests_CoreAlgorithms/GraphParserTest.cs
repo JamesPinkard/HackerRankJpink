@@ -12,6 +12,12 @@ namespace UnitTests_CoreAlgorithms
     [TestFixture]
     class GraphParserTest
     {
+
+        private static IGraphParser GetGraphParser()
+        {
+            return new SimpleGraphParser();
+        }
+
         [Test]
         public void Parse_3x3grid_ReturnsGraph()
         {
@@ -23,7 +29,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
 
@@ -41,7 +47,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
             var mynodes = nodes.ToList();
@@ -62,7 +68,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
             var neighbors = nodes.Select(node => node.NeighborEdges);
@@ -81,7 +87,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
             Assert.That(nodes.Count(), Is.EqualTo(9));
@@ -98,7 +104,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
             var neighbors = nodes.First().NeighborEdges;
@@ -117,7 +123,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
             var cornerNodes = nodes.Where(n => n.NeighborEdges.Count() == 3);
@@ -137,7 +143,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
             var sideNodes = nodes.Where(n => n.NeighborEdges.Count() == 5);
@@ -157,7 +163,7 @@ namespace UnitTests_CoreAlgorithms
                 "0 1 0",
                 "1 0 1"
             };
-            IGraphParser parser = new SimpleGraphParser();
+            IGraphParser parser = GetGraphParser();
 
             IEnumerable<Node> nodes = parser.Parse(gridInput);
             var sideNodes = nodes.Where(n => n.NeighborEdges.Count() == 8);

@@ -43,9 +43,12 @@
     <Compile Include="AdjacencyListGraph\GridIndex.cs" />
     <Compile Include="AdjacencyListGraph\IEdge.cs" />
     <Compile Include="AdjacencyListGraph\IGraphParser.cs" />
+    <Compile Include="AdjacencyListGraph\IGridFormatter.cs" />
     <Compile Include="AdjacencyListGraph\IRegionMapper.cs" />
+    <Compile Include="AdjacencyListGraph\MatrixHelper.cs" />
     <Compile Include="AdjacencyListGraph\RegionMapper.cs" />
     <Compile Include="AdjacencyListGraph\SimpleGraphParser.cs" />
+    <Compile Include="AdjacencyListGraph\SimpleGridFormatter.cs" />
     <Compile Include="AdjacencyListGraph\StreamDataReader.cs" />
     <Compile Include="AdjacencyListGraph\RegionProcessor.cs" />
     <Compile Include="AdjacencyListGraph\IDataReader.cs" />
